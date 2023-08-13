@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #870000;
+  background: -webkit-linear-gradient(to right, #190A05, #870000);
+  background: linear-gradient(to right, #190A05, #870000);
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.logo {
+  width: 60%;
+  margin: 1rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+}
+#resultado{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-persona {
+  width: 18rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.miniatura {
+  max-width: 150px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.miniatura .card-img-top {
+  max-height: 70px; 
+  object-fit: cover; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.miniatura .card-body {
+  padding: 10px;
+}
+.likesVisibility{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ocultar{
+  display: none;
+}
